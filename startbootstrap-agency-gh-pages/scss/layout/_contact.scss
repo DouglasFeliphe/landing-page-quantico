@@ -1,47 +1,37 @@
 // Styling for the contact section
 section#contact {
-  background-color: $gray-900;
-  background-image: url('../img/map-image.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  .section-heading {
-    color: $white;
+  background-color: $brown-1;
+  color: #fff;
+  .section-title {
+    margin-bottom: 44px;
+    font-weight: 600;
+    font-size: 23px;
   }
-  .form-group {
-    margin-bottom: 25px;
-    input,
-    textarea {
-      padding: 20px;
+  .section-title::before {
+    content: "____";
+  }
+  .section-title::after {
+    content: "____";
+  }
+  .btn-avaliacao {
+    margin: 66px 0;
+  }
+  .contatos {
+    margin-left: 15%;
+
+    .contato {
+      margin: 88px 0;
+      display: flex;
+      align-items: center;
+      .fas {
+        font-size: 3rem;
+        margin: 5px;
+      }
+      .label,
+      .phone,
+      .email {
+        font-size: 25px;
+      }
     }
-    input.form-control {
-      height: auto;
-    }
-    textarea.form-control {
-      height: 248px;
-    }
-  }
-  .form-control:focus {
-    border-color: $primary;
-    box-shadow: none;
-  }
-  ::-webkit-input-placeholder {
-    font-weight: 700;
-    color: $gray-400;
-    @include heading-font;
-  }
-  :-moz-placeholder {
-    font-weight: 700;
-    color: $gray-400;
-    @include heading-font;
-  }
-  ::-moz-placeholder {
-    font-weight: 700;
-    color: $gray-400;
-    @include heading-font;
-  }
-  :-ms-input-placeholder {
-    font-weight: 700;
-    color: $gray-400;
-    @include heading-font;
   }
 }

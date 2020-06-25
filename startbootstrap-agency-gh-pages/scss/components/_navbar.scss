@@ -10,6 +10,7 @@
     border: 0;
     background-color: $primary;
     @include heading-font;
+    margin: 44px;
   }
   .navbar-brand {
     color: $primary;
@@ -19,6 +20,7 @@
     &:focus,
     &:hover {
       color: darken($primary, 10%);
+      margin: 44px;
     }
   }
   .navbar-nav {
@@ -38,7 +40,7 @@
     }
   }
 }
-@media(min-width:992px) {
+@media (min-width: 992px) {
   #mainNav {
     padding-top: 25px;
     padding-bottom: 25px;
@@ -71,3 +73,11 @@
     }
   }
 }
+
+// @media (min-width: 375px) {
+//   #mainNav {
+//     overflow: hidden;
+//     clear: both;
+//     width: fit-content;
+//   }
+// }

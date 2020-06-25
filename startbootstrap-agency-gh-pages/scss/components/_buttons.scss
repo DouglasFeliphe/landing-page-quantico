@@ -10,8 +10,10 @@
 }
 
 .btn-primary {
-  background-color: $primary;
-  border-color: $primary;
+  // background-color: $primary;
+  background: linear-gradient(to right, #cc8f74 0%, $primary 100%);
+
+  border: none;
   &:active,
   &:focus,
   &:hover {
@@ -21,6 +23,6 @@
   }
   &:active,
   &:focus {
-    box-shadow: 0 0 0 0.2rem rgba(254, 209, 55,.5) !important;
+    box-shadow: 0 0 0 0.2rem $primary !important;
   }
 }

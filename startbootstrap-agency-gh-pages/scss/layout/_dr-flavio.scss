@@ -1,0 +1,27 @@
+section#dr-flavio {
+    background-color: $gray-1;
+    .col-lg-6 {
+        padding: 0 44px;
+    }
+    .fakeimg {
+        height: 100%;
+        background: #aaa;
+        box-shadow: 25px 25px 1px #fff;
+    }
+    .intro-lead-in {
+        font-weight: 300;
+        font-size: 30px;
+    }
+    .intro-heading {
+        font-size: 30px;
+        font-weight: bolder;
+        font-size: 52px;
+        letter-spacing: -2px;
+    }
+    .texto {
+        font-size: 25px;
+    }
+    .btn-avaliacao {
+        margin: 44px 0;
+    }
+}

@@ -1,0 +1,41 @@
+section#manifesto {
+    background: #222222;
+    color: #fff;
+    .wrapper-icon {
+        display: flex;
+        flex-direction: column;
+    }
+    .wrapper {
+        display: flex;
+    }
+    .fa-caret-up {
+        font-size: 3rem;
+        margin: 0;
+        padding: 0;
+        line-height: 0.3em;
+    }
+    .manifesto1 {
+        opacity: 1;
+    }
+    .manifesto2 {
+        opacity: 0.8;
+    }
+    .manifesto3 {
+        opacity: 0.6;
+    }
+    .manifesto4 {
+        opacity: 0.4;
+    }
+    .manifesto5 {
+        opacity: 0.2;
+    }
+    .section-heading {
+        margin: 13px;
+        font-size: 3rem;
+        font-weight: 450;
+    }
+    .text-left {
+        font-size: 25px;
+        font-weight: 200;
+    }
+}

@@ -1,0 +1,24 @@
+section#primordialle {
+    background-color: $gray-1;
+    padding: 66px;
+    .section-title {
+        margin-bottom: 44px;
+        font-weight: 600;
+        font-size: 23px;
+    }
+    .section-title::before {
+        content: "____";
+    }
+    .section-title::after {
+        content: "____";
+    }
+    .section-heading {
+        font-size: 30px;
+        font-weight: bolder;
+        font-size: 44px;
+        letter-spacing: -2px;
+    }
+    .btn-avaliacao {
+        margin: 66px 0;
+    }
+}

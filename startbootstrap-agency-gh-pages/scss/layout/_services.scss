@@ -1,5 +1,32 @@
 // Styling for the services section
-.service-heading {
-  margin: 15px 0;
-  text-transform: none;
+section#depoimentos {
+  .service-heading {
+    margin: 15px 0;
+    text-transform: none;
+  }
+  .section-title {
+    margin-bottom: 44px;
+    font-weight: 600;
+    font-size: 23px;
+  }
+  .section-title::before {
+    content: "____";
+  }
+  .section-title::after {
+    content: "____";
+  }
+  .section-heading {
+    font-size: 30px;
+    font-weight: bolder;
+    font-size: 52px;
+    letter-spacing: -2px;
+    margin: 44px 0;
+    padding: 0 77px;
+  }
+  .fakeimg {
+    height: 20rem;
+    // width: 50%;
+    background: #aaa;
+    border-radius: 100%;
+  }
 }

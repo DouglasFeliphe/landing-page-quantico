@@ -45,9 +45,16 @@ h6 {
     @include serif-font;
   }
 }
-@media(min-width:768px) {
+@media (min-width: 768px) {
   section {
     padding: 150px 0;
+  }
+}
+// mobile
+@media (max-width: 375px) {
+  body {
+    width: fit-content;
+    // width: 50%;
   }
 }
 

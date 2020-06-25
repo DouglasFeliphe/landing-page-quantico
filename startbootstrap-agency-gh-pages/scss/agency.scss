@@ -10,10 +10,12 @@
 @import "components/navbar.scss";
 
 // Layout
+@import "layout/dr-flavio.scss";
+@import "layout/especialidades.scss";
+@import "layout/manifesto.scss";
+@import "layout/primordialle.scss";
+
 @import "layout/masthead.scss";
 @import "layout/services.scss";
-@import "layout/portfolio.scss";
-@import "layout/timeline.scss";
-@import "layout/team.scss";
 @import "layout/contact.scss";
 @import "layout/footer.scss";

@@ -1,0 +1,48 @@
+section#especialidades {
+    background-color: #282729;
+    color: #fff;
+    padding: 66px;
+    padding: 66px;
+
+    .section-title {
+        margin-bottom: 150px;
+        font-weight: 600;
+        font-size: 23px;
+    }
+    .section-title::before {
+        content: "____";
+    }
+    .section-title::after {
+        content: "____";
+    }
+    .section-subheading {
+        font-size: 25px;
+        font-weight: 300;
+        margin: 0 !important;
+    }
+    .section-heading {
+        font-size: 75px;
+        margin: 25px 0;
+        line-height: 88px;
+        letter-spacing: -5px;
+    }
+    .btn-avaliacao {
+        margin: 44px 0;
+    }
+    hr {
+        color: #fff;
+        background: #fff;
+    }
+    .pages {
+        font-size: 1.5rem;
+    }
+    .col-lg-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .fas {
+        // position: relative;
+        font-size: 2rem;
+    }
+}
